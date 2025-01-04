@@ -1,0 +1,19 @@
+header{
+    background-color: rgb(102, 92, 92);
+    color:white;
+
+}
+.box
+{
+    background-color: rgb(96, 9, 23);
+    color:aqua;
+
+}
+.card{
+    background-color: blueviolet;
+  
+    width: 40vw;
+
+    height: 50vh;
+
+}
