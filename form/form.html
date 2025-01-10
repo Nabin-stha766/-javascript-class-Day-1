@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <section class="form">    
+        <form action="">
+            <h3>Sign Up</h3>
+            <div class="input-container">
+                    <input 
+                    id="user-name" 
+                    type="text" 
+                    placeholder="e.g. Nabin Shrestha" 
+                    name="user-name" \>
+                    <p class="user-msg msg">error message</p>
+            </div>
+            <div class="input-container">
+                    <input 
+                    id="email" 
+                    type="text"
+                    placeholder="e.g. Nabin@gmail.com" 
+                    name="user-name" \>
+                    <p class="email-msg msg">error message</p>
+                <div class="input-container">
+                        <input 
+                        id="password1" 
+                        type="password" 
+                        placeholder="password"
+                        name="user-name" \>
+                        <p class=" password1-msg msg">error message</p>
+                </div>
+            </div>
+            <div class="input-container">
+                    <input 
+                    id="password2" 
+                    type="password"
+                    placeholder="Confirm password" 
+                    name="password2" \>
+                    <p class=" password2-msg msg">error message</p>
+            </div>
+            <input class="submit" type="submit" name="Submit" id="submit">
+            <p class="ac-msg">Already have an account? <a href="#">Login</a></p>
+        </form>
+    </section>
+    <script src="form.js"></script>
+</body>
+
+</html>
